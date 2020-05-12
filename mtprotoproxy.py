@@ -1600,15 +1600,14 @@ async def handle_client(reader_clt, writer_clt):
 
     if not clt_data:
         return
-    print(clt_data)
     reader_clt, writer_clt, proto_tag, user, dc_idx, enc_key_and_iv, peer = clt_data
-    print(reader_clt)
-    print(writer_clt)
+    print("-------------------start-------------------")
     print(proto_tag)
     print(user)
     print(dc_idx)
     print(enc_key_and_iv)
     print(peer)
+    print("-------------------start-------------------")
     cl_ip, cl_port = peer
 
     update_user_stats(user, connects=1)
