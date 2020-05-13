@@ -7,7 +7,7 @@ PYTHON_DIRECTORY = "/".join(os.path.realpath(__file__).split("/")[:-1])
 PORT = 143
 
 USERS = {
-    "root": "18770d7e45f302ef3d3c61cd8ea7f62c",
+    "root": "03f4697afc55f208ad95dbc423e98adc",
 }
 
 USER_MAX_TCP_CONNS = {
