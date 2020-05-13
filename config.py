@@ -39,11 +39,11 @@ except Exception as e:
 
 MODES = {
     # Classic mode, easy to detect
-    "classic": False,
+    "classic": True,
 
     # Makes the proxy harder to detect
     # Can be incompatible with very old clients
-    "secure": False,
+    "secure": True,
 
     # Makes the proxy even more hard to detect
     # Can be incompatible with old clients
