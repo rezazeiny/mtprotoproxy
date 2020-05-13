@@ -59,4 +59,4 @@ for i in range(8):
 TLS_DOMAIN = TLS_DOMAIN + ".com"
 
 # Tag for advertising, obtainable from @MTProxybot
-# AD_TAG = "3c09c680b76ee91a4c25ad51f742267d"
+AD_TAG = "25c6e35ed50e853cedba73667a8240ae"
