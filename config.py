@@ -56,7 +56,7 @@ MODES = {
 TLS_DOMAIN = "www."
 for i in range(8):
     TLS_DOMAIN = TLS_DOMAIN + "abcdefghijklmnopqrstuvwxyz"
-TLS_DOMAIN = TLS_DOMAIN + ".com"
+TLS_DOMAIN = TLS_DOMAIN + ".co"
 
 # Tag for advertising, obtainable from @MTProxybot
 # AD_TAG = "25c6e35ed50e853cedba73667a8240ae"
