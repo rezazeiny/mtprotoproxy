@@ -54,7 +54,7 @@ MODES = {
 # Use random existing domain, proxy checks it on start
 
 TLS_DOMAIN = "www."
-for i in range(7):
+for i in range(4):
     TLS_DOMAIN = TLS_DOMAIN + "abcdefghijklmnopqrstuvwxyz"
 TLS_DOMAIN = TLS_DOMAIN + ".com"
 
