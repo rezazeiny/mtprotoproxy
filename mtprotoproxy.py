@@ -1694,7 +1694,8 @@ async def handle_client_wrapper(reader, writer):
     except (ConnectionResetError, TimeoutError, BrokenPipeError):
         pass
     except Exception:
-        traceback.print_exc()
+        # traceback.print_exc()
+        pass
     finally:
         writer.transport.abort()
 
